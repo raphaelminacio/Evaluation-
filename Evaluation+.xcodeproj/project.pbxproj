@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2878020C1FD0AD74001B222F /* FloatActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802091FD0AD74001B222F /* FloatActionButton.swift */; };
+		2878020D1FD0AD74001B222F /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2878020A1FD0AD74001B222F /* UIButtonX.swift */; };
+		2878020E1FD0AD74001B222F /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2878020B1FD0AD74001B222F /* UIViewX.swift */; };
+		287802111FD0ADD5001B222F /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 287802101FD0ADD5001B222F /* Champagne & Limousines.ttf */; };
+		287802141FD0AE9C001B222F /* GradeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802121FD0AE9C001B222F /* GradeController.swift */; };
+		287802171FD0B0F9001B222F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802161FD0B0F9001B222F /* MenuController.swift */; };
+		287802191FD0F049001B222F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802181FD0F049001B222F /* UserDefaultsManager.swift */; };
 		28DFA0E51FC8C08700328368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFA0E41FC8C08700328368 /* AppDelegate.swift */; };
 		28DFA0E71FC8C08700328368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFA0E61FC8C08700328368 /* ViewController.swift */; };
 		28DFA0EA1FC8C08700328368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DFA0E81FC8C08700328368 /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		287802091FD0AD74001B222F /* FloatActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatActionButton.swift; sourceTree = "<group>"; };
+		2878020A1FD0AD74001B222F /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		2878020B1FD0AD74001B222F /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		287802101FD0ADD5001B222F /* Champagne & Limousines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines.ttf"; sourceTree = "<group>"; };
+		287802121FD0AE9C001B222F /* GradeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeController.swift; sourceTree = "<group>"; };
+		287802161FD0B0F9001B222F /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		287802181FD0F049001B222F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		28DFA0E11FC8C08700328368 /* Evaluation+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evaluation+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DFA0E41FC8C08700328368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28DFA0E61FC8C08700328368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +49,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		287802061FD0ACC4001B222F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28DFA0E41FC8C08700328368 /* AppDelegate.swift */,
+				287802161FD0B0F9001B222F /* MenuController.swift */,
+				28DFA0E61FC8C08700328368 /* ViewController.swift */,
+				287802121FD0AE9C001B222F /* GradeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		287802071FD0ACD1001B222F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28DFA0ED1FC8C08700328368 /* LaunchScreen.storyboard */,
+				28DFA0E81FC8C08700328368 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		287802081FD0ACDB001B222F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2878020F1FD0ADB0001B222F /* fonts */,
+				287802091FD0AD74001B222F /* FloatActionButton.swift */,
+				2878020A1FD0AD74001B222F /* UIButtonX.swift */,
+				2878020B1FD0AD74001B222F /* UIViewX.swift */,
+				287802181FD0F049001B222F /* UserDefaultsManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2878020F1FD0ADB0001B222F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				287802101FD0ADD5001B222F /* Champagne & Limousines.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		28DFA0D81FC8C08700328368 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +108,11 @@
 		28DFA0E31FC8C08700328368 /* Evaluation+ */ = {
 			isa = PBXGroup;
 			children = (
-				28DFA0E41FC8C08700328368 /* AppDelegate.swift */,
-				28DFA0E61FC8C08700328368 /* ViewController.swift */,
-				28DFA0E81FC8C08700328368 /* Main.storyboard */,
 				28DFA0EB1FC8C08700328368 /* Assets.xcassets */,
-				28DFA0ED1FC8C08700328368 /* LaunchScreen.storyboard */,
 				28DFA0F01FC8C08700328368 /* Info.plist */,
+				287802081FD0ACDB001B222F /* Resources */,
+				287802071FD0ACD1001B222F /* View */,
+				287802061FD0ACC4001B222F /* Controller */,
 			);
 			path = "Evaluation+";
 			sourceTree = "<group>";
@@ -123,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287802111FD0ADD5001B222F /* Champagne & Limousines.ttf in Resources */,
 				28DFA0EF1FC8C08700328368 /* LaunchScreen.storyboard in Resources */,
 				28DFA0EC1FC8C08700328368 /* Assets.xcassets in Resources */,
 				28DFA0EA1FC8C08700328368 /* Main.storyboard in Resources */,
@@ -136,7 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287802171FD0B0F9001B222F /* MenuController.swift in Sources */,
+				2878020D1FD0AD74001B222F /* UIButtonX.swift in Sources */,
+				287802141FD0AE9C001B222F /* GradeController.swift in Sources */,
+				2878020C1FD0AD74001B222F /* FloatActionButton.swift in Sources */,
 				28DFA0E71FC8C08700328368 /* ViewController.swift in Sources */,
+				2878020E1FD0AD74001B222F /* UIViewX.swift in Sources */,
+				287802191FD0F049001B222F /* UserDefaultsManager.swift in Sources */,
 				28DFA0E51FC8C08700328368 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76WG6P9Z4L;
 				INFOPLIST_FILE = "Evaluation+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rmi.Evaluation-";
@@ -289,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76WG6P9Z4L;
 				INFOPLIST_FILE = "Evaluation+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rmi.Evaluation-";
