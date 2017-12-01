@@ -13,7 +13,7 @@
 		287802111FD0ADD5001B222F /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 287802101FD0ADD5001B222F /* Champagne & Limousines.ttf */; };
 		287802141FD0AE9C001B222F /* GradeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802121FD0AE9C001B222F /* GradeController.swift */; };
 		287802171FD0B0F9001B222F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802161FD0B0F9001B222F /* MenuController.swift */; };
-		287802191FD0F049001B222F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802181FD0F049001B222F /* UserDefaultsManager.swift */; };
+		2878021A1FD1AAD0001B222F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802181FD0F049001B222F /* UserDefaultsManager.swift */; };
 		28DFA0E51FC8C08700328368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFA0E41FC8C08700328368 /* AppDelegate.swift */; };
 		28DFA0E71FC8C08700328368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFA0E61FC8C08700328368 /* ViewController.swift */; };
 		28DFA0EA1FC8C08700328368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DFA0E81FC8C08700328368 /* Main.storyboard */; };
@@ -196,7 +196,7 @@
 				2878020C1FD0AD74001B222F /* FloatActionButton.swift in Sources */,
 				28DFA0E71FC8C08700328368 /* ViewController.swift in Sources */,
 				2878020E1FD0AD74001B222F /* UIViewX.swift in Sources */,
-				287802191FD0F049001B222F /* UserDefaultsManager.swift in Sources */,
+				2878021A1FD1AAD0001B222F /* UserDefaultsManager.swift in Sources */,
 				28DFA0E51FC8C08700328368 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
