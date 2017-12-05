@@ -3,14 +3,12 @@ import Foundation
 
 import UIKit
 
-class GradeContoller: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
-    //===========
+class ListOfCoursesAndGradesController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     @IBOutlet weak var course_grade_tableview: UITableView!
     @IBOutlet weak var student_name_label: UILabel!
-    @IBOutlet weak var course_field: UITextField!
-    @IBOutlet weak var grade_field: UITextField!
     @IBOutlet weak var gradeAverage: UILabel!
-    //===========
+    
     typealias studentName = String
     typealias course = String
     typealias grade = Double
@@ -43,17 +41,17 @@ class GradeContoller: UIViewController, UITableViewDelegate, UITableViewDataSour
         gradeAverage.text = String(format: "Student's average grade is: %.1f", ave)
         
         return arrOfGrades.count
-
     }
+
     //===========
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = course_grade_tableview.dequeueReusableCell(withIdentifier: "proto")!
+        let cell: UITableViewCell = course_grade_tableview.dequeueReusableCell(withIdentifier: "proto2")!
         
-        if let aCourse = cell.viewWithTag(100) as! UILabel! {
+        if let aCourse = cell.viewWithTag(200) as! UILabel! {
             aCourse.text = arrOfCourses[indexPath.row]
         }
         
-        if let aGrade = cell.viewWithTag(101) as! UILabel! {
+        if let aGrade = cell.viewWithTag(201) as! UILabel! {
             aGrade.text = String(arrOfGrades[indexPath.row])
         }
         
@@ -63,20 +61,13 @@ class GradeContoller: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
     }
-    
+
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCellEditingStyle.delete {
             tableView.deleteRows(at: [indexPath as IndexPath], with: UITableViewRowAnimation.automatic)
             tableView.reloadData()
         }
     }
-    
-//    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-//        if editingStyle == UITableViewCellEditingStyle.delete {
-//            arrOfCourses.remove(at: indexPath.row)
-//            tableView.reloadData()
-//        }
-//    }
     //===========
     func loadUserDefaults() {     /* Verify if there's somethin in the memory */
         
@@ -87,19 +78,5 @@ class GradeContoller: UIViewController, UITableViewDelegate, UITableViewDataSour
             studentsGrades = [studentName: [course: grade]]()
         }
     }
-    //===========
-    @IBAction func save_course_and_grade(_ sender: UIButton) {
-        let name = student_name_label.text!
-        var student_courses = studentsGrades[name]!
-        student_courses[course_field.text!] = Double(grade_field.text!)
-        studentsGrades[name] = student_courses
-        userDefaultsObj.setKey(theValue: studentsGrades as AnyObject, theKey: "grades")
-        filUpArray()
-        course_grade_tableview.reloadData()
-        
-        self.course_field.text = nil   // Those two lines are useful to reset the textfield's content when click over the button
-        self.grade_field.text = nil
-
-    }
-
+    
 }

@@ -51,11 +51,6 @@ class MenuController: UIViewController {
         })
         
     }
-    
-    //================
-    @IBAction func gradeResults(_ sender: UIButton) {
-    }
-    
     //================
     func closeMenu() {
         menuView.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2861E3851FD5C4B600E7CA71 /* StudentListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2861E3841FD5C4B600E7CA71 /* StudentListController.swift */; };
+		2861E3871FD5E22900E7CA71 /* ListOfCoursesAndGradesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2861E3861FD5E22900E7CA71 /* ListOfCoursesAndGradesController.swift */; };
 		2878020C1FD0AD74001B222F /* FloatActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802091FD0AD74001B222F /* FloatActionButton.swift */; };
 		2878020D1FD0AD74001B222F /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2878020A1FD0AD74001B222F /* UIButtonX.swift */; };
 		2878020E1FD0AD74001B222F /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2878020B1FD0AD74001B222F /* UIViewX.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2861E3841FD5C4B600E7CA71 /* StudentListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListController.swift; sourceTree = "<group>"; };
+		2861E3861FD5E22900E7CA71 /* ListOfCoursesAndGradesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCoursesAndGradesController.swift; sourceTree = "<group>"; };
 		287802091FD0AD74001B222F /* FloatActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatActionButton.swift; sourceTree = "<group>"; };
 		2878020A1FD0AD74001B222F /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
 		2878020B1FD0AD74001B222F /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 				287802161FD0B0F9001B222F /* MenuController.swift */,
 				28DFA0E61FC8C08700328368 /* ViewController.swift */,
 				287802121FD0AE9C001B222F /* GradeController.swift */,
+				2861E3841FD5C4B600E7CA71 /* StudentListController.swift */,
+				2861E3861FD5E22900E7CA71 /* ListOfCoursesAndGradesController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,10 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				287802171FD0B0F9001B222F /* MenuController.swift in Sources */,
+				2861E3871FD5E22900E7CA71 /* ListOfCoursesAndGradesController.swift in Sources */,
 				2878020D1FD0AD74001B222F /* UIButtonX.swift in Sources */,
 				287802141FD0AE9C001B222F /* GradeController.swift in Sources */,
 				2878020C1FD0AD74001B222F /* FloatActionButton.swift in Sources */,
 				28DFA0E71FC8C08700328368 /* ViewController.swift in Sources */,
+				2861E3851FD5C4B600E7CA71 /* StudentListController.swift in Sources */,
 				2878020E1FD0AD74001B222F /* UIViewX.swift in Sources */,
 				2878021A1FD1AAD0001B222F /* UserDefaultsManager.swift in Sources */,
 				28DFA0E51FC8C08700328368 /* AppDelegate.swift in Sources */,
