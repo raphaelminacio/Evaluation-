@@ -315,6 +315,15 @@
                                     <segue destination="iEP-mx-Q8y" kind="presentation" id="rze-tR-MBf"/>
                                 </connections>
                             </button>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fR5-PL-HcF">
+                                <rect key="frame" x="47" y="44" width="281" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="mXR-Cf-F7F">
+                                    <rect key="frame" x="0.0" y="0.0" width="281" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pierre-Luc Bourassa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bi5-yr-ho3">
                                 <rect key="frame" x="47" y="45" width="281" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -331,15 +340,6 @@
                                     <segue destination="na3-pP-SQz" kind="presentation" id="1yR-s6-vzf"/>
                                 </connections>
                             </button>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fR5-PL-HcF">
-                                <rect key="frame" x="47" y="44" width="281" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="mXR-Cf-F7F">
-                                    <rect key="frame" x="0.0" y="0.0" width="281" height="31"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                </view>
-                                <blurEffect style="light"/>
-                            </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="tJG-33-Jtd"/>
@@ -511,7 +511,6 @@
         <image name="test-results" width="23" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xhO-kL-AUA"/>
         <segue reference="rze-tR-MBf"/>
         <segue reference="1yR-s6-vzf"/>
         <segue reference="YxW-YW-cnz"/>
